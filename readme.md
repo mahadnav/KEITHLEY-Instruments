@@ -83,7 +83,7 @@ This will setup the virtual envrionment.
 
 **Step 3: Activate the Environment**
 
-- Windows:
+Windows:
 
 ```keithley-XX\Scripts\activate```
 
@@ -107,8 +107,7 @@ pip install -r "requirements x32.txt"
 **For Picoammeter**
 
 ```bash
-python Picoammeter/src/pico_controller x32.py ### for 32-bit python
-python Picoammeter/src/pico_controller x64.py ### for 64-bit python
+python Picoammeter/src/pico_controller.py ### for 64-bit python
 ```
 
 **For Nanovoltmeter**
