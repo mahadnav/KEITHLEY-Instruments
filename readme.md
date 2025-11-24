@@ -142,8 +142,8 @@ The new executable will appear in the local ```dist/``` folder.
 
 ### Technical Team
 
-Developer: Mahad Naveed
-Supervisor: Dr. Sabieh Anwar
-Supported by: Hammad Gardezi
+- Developer: Mahad Naveed
+- Supervisor: Dr. Sabieh Anwar
+- Supported by: Hammad Gardezi
 
-This is a project of PHYSLAB at the Physics Department of LUMS.
+This is a project of PHYSLAB at the Physics Department of tht School of Science and Engineering, LUMS.
