@@ -1,0 +1,6 @@
+PyQt5
+pyvisa
+pandas
+matplotlib
+numpy
+kiwisolver

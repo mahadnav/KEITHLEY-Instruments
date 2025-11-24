@@ -1,7 +1,0 @@
-PyQt5
-pyvisa
-plotly
-pandas
-matplotlib
-numpy
-kiwisolver
