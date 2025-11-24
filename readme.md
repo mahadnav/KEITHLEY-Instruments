@@ -128,13 +128,13 @@ Run ```PyInstaller``` pointing to the specific controller file:
 ```bash
 # For Nanovoltmeter
 cd Nanovoltmeter
-pyinstaller --onefile --name "Nanovoltmeter_Controller x32" "src/Nanovoltmeter_controller.py" ### with 32-bit env
-pyinstaller --onefile --name "Nanovoltmeter_Controller x64" "src/Nanovoltmeter_controller.py" ### with 64-bit env
+pyinstaller --onefile --name "Nanovoltmeter_Controller x32" "src/Nanovoltmeter_controller.py" ### 32-bit env
+pyinstaller --onefile --name "Nanovoltmeter_Controller x64" "src/Nanovoltmeter_controller.py" ### 64-bit env
 
 # For Picoammeter
 cd Picoammeter
-pyinstaller --onefile --name "pico_controller x32" "src/pico_controller.py" ### with 32-bit env
-pyinstaller --onefile --name "pico_controller x64" "src/pico_controller.py" ### with 64-bit env
+pyinstaller --onefile --name "pico_controller x32" "src/pico_controller.py" ### 32-bit env
+pyinstaller --onefile --name "pico_controller x64" "src/pico_controller.py" ### 64-bit env
 ```
 
 The new executable will appear in the local ```dist/``` folder.
