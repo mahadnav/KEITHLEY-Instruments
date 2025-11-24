@@ -115,7 +115,7 @@ python Picoammeter/src/pico_controller.py ### for 64-bit python
 python Nanovoltmeter/src/Nanovoltmeter_controller.py
 ```
 
-### Re-building the Executable
+### 🏗️ Re-building the Executable
 
 If you have modified the code and want to generate a new .exe file, use the included source files.
 
@@ -138,6 +138,16 @@ pyinstaller --onefile --name "pico_controller x64" "src/pico_controller.py" ### 
 ```
 
 The new executable will appear in the local ```dist/``` folder.
+
+
+### Interface
+
+The interface looks like this:
+
+![Picoammeter interface](./img/picoammeter_interface.png)
+
+![Nanovoltmeter interface](./img/nanovoltmeter_interface.png)
+
 
 
 ### Technical Team
