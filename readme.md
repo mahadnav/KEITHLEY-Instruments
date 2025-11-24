@@ -70,8 +70,6 @@ If you wish to modify the code or run it directly via Python, please use the rec
 
 Open your terminal/command prompt in the KEITHLEY-Instruments folder and run:
 
-# Create a virtual environment named kiethley-XX (32 or 64)
-
 For 32-bit
 ```bash
 python -m venv kiethley-x32
@@ -81,6 +79,7 @@ For 64-bit
 ```bash
 python -m venv kiethley-x64
 ```
+This will setup the virtual envrionment.
 
 **Step 3: Activate the Environment**
 
@@ -111,12 +110,13 @@ pip install -r "requirements x32.txt"
 python Picoammeter/src/pico_controller x32.py ### for 32-bit python
 python Picoammeter/src/pico_controller x64.py ### for 64-bit python
 ```
+
 **For Nanovoltmeter**
 ```bash
 python Nanovoltmeter/src/Nanovoltmeter_controller.py
 ```
 
-# Re-building the Executable
+### Re-building the Executable
 
 If you have modified the code and want to generate a new .exe file, use the included source files.
 
