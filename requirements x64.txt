@@ -3,5 +3,4 @@ pyvisa
 pandas
 matplotlib
 numpy
-kiwisolver
 pyinstaller
