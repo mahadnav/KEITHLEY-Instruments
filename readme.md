@@ -31,7 +31,8 @@ KEITHLEY-Instruments/
 
 ### Prerequisites
 
-- NI-VISA or another VISA backend  
+- NI-VISA or another VISA backend
+    - Link to install 64-bit drivers: https://www.tek.com/en/support/software/driver/9-2-0
 - A Keithley instrument connected via GPIB  
 
 ### Installation
